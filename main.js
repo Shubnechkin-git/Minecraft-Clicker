@@ -11,6 +11,8 @@ class Game {
 
     isMouseUp = false;
 
+    language = 'ru'; //todo: добавить локализацию re,en,tr
+
     buyClickPoint = () => {
         if (this.score >= this.price && this.isMouseUp) {
             this.isMouseUp = false;
